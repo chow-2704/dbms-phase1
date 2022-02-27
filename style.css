@@ -1,0 +1,60 @@
+body {
+    background: url('./images/testimonials-background.png');
+    background-position: 0 1000px;
+	font-family: tahoma;
+    text-align: justify;
+	overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Aboutus h2{margin: 25px;color: #6d0808;margin-bottom: 47px;
+    margin-top: 12px;}
+    
+p{
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+
+.img-wrap img {width: 100%; padding: 10px;border-radius: 20%;box-shadow: 0 0 10px #999999;}
+
+			
+    
+}
+
+ .about-link{
+    padding-left: 0px;
+}
+
+ .about-link li{
+    display: inline-block;
+}
+
+ .about-link li a i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #c5d6b2;
+    margin-right: 10px;
+    font-size: 22px;
+    color: #d6c6b2;
+    transition: all .3s;
+    
+}
+
+
+ .about-link li a i:hover{
+    color: #222222;
+    background: #d6c6b2;
+    border-color: #d6c6b2;
+
+ }
+
+ 
